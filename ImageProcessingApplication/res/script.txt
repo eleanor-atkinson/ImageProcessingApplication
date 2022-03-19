@@ -1,0 +1,14 @@
+load UAEflag.ppm flag
+red-component flag redflag
+green-component flag greenflag
+blue-component flag blueflag
+horizontal-flip flag horizontalflag
+vertical-flip flag verticalflag
+luma-component flag lumaflag
+value-component flag valueflag
+intensity-component flag intensity flag
+brighten flag brightflag 50
+brighten flag darkflag -50
+sepia flag sepiaflag
+save SEPIAflag.png sepiaflag
+q

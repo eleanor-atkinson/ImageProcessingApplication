@@ -1,0 +1,49 @@
+SCRIPT COMMANDS:
+
+Loads image into processor:
+load filepath imagename
+"load" "res/UAEflag.ppm" "flag"
+
+Saves image to given filepath:
+save filepath imagename
+"save" "res/UAEflag.png" "flag"
+
+Grayscales image based on red component of pixels:
+red-component originalImage newImage
+"red-component" "flag" "redflag"
+
+Grayscales image based on green component of pixels:
+green-component originalImage newImage
+"green-component" "flag" "greenflag"
+
+Grayscales image based on blue component of pixels:
+blue-component originalImage newImage
+"blue-component" "flag" "blueflag"
+
+Grayscales image based on intensity of components of pixels:
+intensity-component originalImage newImage
+"intensity-component" "flag" "intensityflag"
+
+Grayscales image based on luma color transformation:
+luma-component originalImage newImage
+"luma-component" "flag" "lumaflag"
+
+Grayscales image based on the maximum value of each component:
+value-component originalImage newImage
+"value-component" "flag" "valueflag"
+
+Flips image horizontally:
+horizontal-flip originalImage newImage
+"horizontal-flip" "flag" "horizontalflag"
+
+Flips image vertically:
+vertical-flip originalImage newImage
+"vertical-flip" "flag" "verticalflag"
+
+Brightens or darkens an image by the given amount:
+brighten originalImage newImage amount
+"brighten" "flag" "brightflag" "50"
+
+Gives the image a sepia tone
+sepia originalImage newImage
+"sepia" "flag" "sepiaflag"
